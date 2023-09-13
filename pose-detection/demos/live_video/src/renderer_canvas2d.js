@@ -319,7 +319,7 @@ export class RendererCanvas2d {
         this.ctx.beginPath();
         this.ctx.moveTo(keypoints[8].x, keypoints[8].y);
         this.ctx.lineTo(keypoints[10].x, keypoints[10].y);
-        this.ctx.strokeStyle = 'Red';
+        this.ctx.strokeStyle = 'Red'; //changes for git
         this.ctx.stroke();
 
      }
